@@ -1,0 +1,59 @@
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .desktop1-desktop {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .desktop1-banner {
+      left: 1em;
+      width: calc(100% - 2em);
+      text-align: center;
+      padding: 0.5em;
+    }
+  
+    .desktop1-team-member3,
+    .desktop1-team-member2,
+    .desktop1-team-member1 {
+      top: 2em;
+      left: 1em;
+      width: calc(100% - 2em);
+      margin: 2em 0;
+      align-items: center;
+    }
+  
+    .desktop1-team-member-image3,
+    .desktop1-team-member-image2,
+    .desktop1-team-member-image1 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .desktop1-our-clients-title {
+      left: 1em;
+      width: calc(100% - 2em);
+      margin-top: 2em;
+      text-align: center;
+      padding: 0.5em;
+    }
+  
+    .desktop1-rectangle6,
+    .desktop1-rectangle7,
+    .desktop1-rectangle8,
+    .desktop1-rectangle9 {
+      position: static;
+      width: 100%;
+      height: auto;
+    }
+  
+    .desktop1-text05,
+    .desktop1-text07,
+    .desktop1-text09,
+    .desktop1-text11,
+    .desktop1-text13 {
+      font-size: 18px;
+    }
+  }
+  
