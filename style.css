@@ -1,17 +1,28 @@
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 100em) {
     .desktop1-desktop {
       flex-direction: column;
       align-items: center;
       height: auto;
     }
   
-    .desktop1-banner {
-      left: 1em;
-      width: calc(100% - 2em);
-      text-align: center;
-      padding: 0.5em;
+
+ 
+
+    .banner{
+        background-color: #003249;
+        padding: 1em;
+        color: #ffffff;
+        border-radius: 1em;
+    }
+
+    .banner-title{
+        font-size: 3em;
+    
+    }
+
+    .banner-sub{
+        font-size: 2.25em;
     }
   
     .desktop1-team-member3,
@@ -22,6 +33,7 @@
       width: calc(100% - 2em);
       margin: 2em 0;
       align-items: center;
+      border-radius: 1em;
     }
   
     .desktop1-team-member-image3,
@@ -37,6 +49,7 @@
       margin-top: 2em;
       text-align: center;
       padding: 0.5em;
+      border-radius: 1em;
     }
   
     .desktop1-rectangle6,
@@ -46,14 +59,18 @@
       position: static;
       width: 100%;
       height: auto;
+      border-radius: 1em;
     }
   
     .desktop1-text05,
     .desktop1-text07,
     .desktop1-text09,
-    .desktop1-text11,
     .desktop1-text13 {
-      font-size: 18px;
+      font-size: 1.5em;
+      width: auto;
+      background-color: #0d5677;
+      color: #ffffff;
+      border-radius: 0.5em;
     }
   }
   
